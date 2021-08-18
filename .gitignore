@@ -1,0 +1,12 @@
+.bash_history
+	.bash_logout
+	.bashrc
+	.cache/
+	.gitconfig
+	.profile
+	.ssh/
+	.sudo_as_admin_successful
+	.viminfo
+	solr-8.9.0.tgz
+log/
+logs/
