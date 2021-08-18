@@ -1,0 +1,14 @@
+<add>
+  <doc boost="10">
+    <field name="id" boost="300">Erstes Dokument</field>
+    <field name="content" boost="0.5">Das ist der Inhalt des ersten Dokuments.</field>
+  </doc>
+  <doc boost="20">
+    <field name="id" boost="200" >Zweites Dokument</field>
+    <field name="content" boost="0.25">Und hier der Inhalt von Dokument zwei.</field>
+  </doc>
+  <doc boost="30">
+    <field name="id" boost="100">Drittes Dokument</field>
+    <field name="content" boost="0.75">Häufig enthalten Dokumente ein Mélange verschiedener Sprachen</field>
+  </doc>
+</add>

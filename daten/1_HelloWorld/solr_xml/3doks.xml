@@ -1,0 +1,14 @@
+<add>
+  <doc>
+    <field name="id">Erstes Dokument</field>
+    <field name="content">Das ist der Inhalt des ersten Dokuments.</field>
+  </doc>
+  <doc>
+    <field name="id">Zweites Dokument</field>
+    <field name="content">Und hier der Inhalt von Dokument zwei.</field>
+  </doc>
+  <doc>
+    <field name="id">Drittes Dokument</field>
+    <field name="content">Häufig enthalten Dokumente ein Mélange verschiedener Sprachen</field>
+  </doc>
+</add>

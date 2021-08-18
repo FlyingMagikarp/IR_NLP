@@ -1,0 +1,18 @@
+<add>
+<doc>
+<field name="id">Viertes Dokument</field>
+<field name="content" boost="100">Dieses Dokument soll zeigen, wie sich das Mélange aus Boostfaktoren auswirkt.</field>
+</doc>
+<doc boost="100">
+<field name="id">Fünftes Dokument</field>
+<field name="content">Auch dieses Dokument soll zeigen, wie sich das Mélange aus Boostfaktoren auswirkt.</field>
+</doc>
+<doc boost="100">
+<field name="id">Sechstes Dokument</field>
+<field name="content" boost="10">Und nochmals ein Dokument, das zeigen soll, wie sich das Mélange aus Boostfaktoren auswirkt.</field>
+</doc>
+<doc boost="100">
+<field name="id">Siebtes Dokument</field>
+<field name="content" boost="0.000001">Und nochmals ein Dokument, das zeigen soll, wie sich ganz kleine Boostfaktoren auswirken.</field>
+</doc>
+</add>

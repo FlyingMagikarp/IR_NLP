@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema name="default-config" version="1.6">
+  <uniqueKey>id</uniqueKey>
+
+  <fieldType name="text_de" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" format="snowball" words="stopwords.txt" ignoreCase="true"/>
+    </analyzer>
+  </fieldType>
+ <fieldType name="plong" class="solr.LongPointField" docValues="true"/>
+ <fieldType name="string" class="solr.StrField" sortMissingLast="true" docValues="true"/>
+ <fieldType name="datetime" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+
+  <field name="_version_" type="plong" indexed="false" stored="false"/>
+  <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="date" type="string" uninvertible="false" indexed="true" stored="true"/>
+  <field name="title_de" type="text_de" multiValued="false" indexed="true" stored="true" uninvertible="false" default="none"/>
+  <field name="title_en" type="string" multiValued="false" indexed="true" stored="true" uninvertible="false" default="none"/>
+  <field name="text_de" type="text_de" multiValued="false" indexed="true" stored="true" uninvertible="false" default="none"/>
+  <field name="text_en" type="string" multiValued="false" indexed="true" stored="true" uninvertible="false" default="none"/>
+
+</schema>
+
